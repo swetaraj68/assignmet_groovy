@@ -1,0 +1,42 @@
+
+
+.mainDiv{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 30vw;
+    height: 60vh;
+    margin-left: 35vw;
+    margin-top: 20vh;
+    border-radius: 10px;
+    background-color: rgb(195, 164, 225);
+    
+}
+.email{
+    display: flex;
+    flex-direction:column;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    color: purple;
+    padding-bottom: 20vh;
+    text-decoration: underline;
+}
+.btn{
+    background-color: blueviolet;
+}
+.passInput{
+    width: 15vw;
+    margin-left: 8vw;  
+      height:4vh;
+}
+.emailInput{
+    width: 15vw;
+    margin-left: 8vw;
+    height:4vh
+}
